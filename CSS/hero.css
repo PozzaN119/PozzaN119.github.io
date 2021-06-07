@@ -2,7 +2,7 @@
 .herobg {
 
   /* Set place */
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 
@@ -41,8 +41,14 @@
   font-size: 30px;
 }
 
-.herotext button {
-  border-radius: 20px;
+.herotext a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+
+  border-radius: 25px;
   border: none;
   outline: 0;
   display: inline-block;
@@ -53,10 +59,10 @@
   cursor: pointer;
   transition: 0.25s;
   font-size: 18px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.herotext button:hover {
-  border-radius: 25px;
+.herotext a:hover {
   background-color: #555;
   color: white;
 }
