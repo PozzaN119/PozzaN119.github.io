@@ -1,10 +1,12 @@
 <html>
   <head>
+    <title>N. Pozza | Portfolio</title>
+    <link rel="apple-touch-icon" href="static/img/ati.JPG">
     <link href="CSS/html.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="CSS/hero.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="CSS/main.css" rel="stylesheet" type="text/css" media="screen"/>
   </head>
-  <body>
+  <body onload="getPicture()">
     <div class="herobg">
       <div class="herotext">
         <h1>I am Noé Pozza</h1>
@@ -12,8 +14,17 @@
         <a href="#main">my career</a>
       </div>
     </div>
-    <div id="main">
-      <h1>Test</h1>
+    <div class="main-body">
+      <div class="main-grid" id="main">
+        <section class="meIntro">
+          <h3></h3>
+        </section>
+        <section class="feed">
+          <p>Have a look at my last Instagram post !</p>
+          <img id="feedinsta" src="">
+        </section>
+      </div>
     </div>
   </body>
+  <script src="JS/picture.js"></script>
 </html>

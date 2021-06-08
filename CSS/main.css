@@ -1,4 +1,56 @@
-#main {
+.main-body {
+  background: rgb(255,255,255);
+
+  width: 93vw;
   position: absolute;
   top: 100vh;
+  left: 0px;
+
+  border-radius: 4px;
+  margin: 3.75vw;
+}
+
+.main-grid {
+  background: rgba(0,0,0,.07);
+
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 4%;
+  padding: 1rem;
+  border-radius: 4px;
+
+  display: grid;
+  grid-template-columns: 20% auto 25%;
+
+  font-size: 1.5rem;
+  line-height: 1.6em;
+}
+
+.meIntro {
+
+}
+
+.feed {
+  background: linear-gradient(rgba(156, 39, 176, 0.4), #eeaf20);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 90%;
+  padding: 1rem;
+  border-radius: 4px;
+
+  grid-area: 1 / col4-start / last-line / 6;
+}
+
+.feed img {
+  max-width: 18vw;
+}
+
+.feed p {
+  font-family: 'Noto Sans JP', sans-serif;
 }

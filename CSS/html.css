@@ -3,6 +3,24 @@
 
 body, html {
     height: 100%;
+
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+
+    background: rgb(57,184,148);
+    background: linear-gradient(45deg, rgba(57,184,148,1) 9%, rgba(96,163,43,1) 90%);
+    background-size: 400% 400%;
+  	animation: gradient 75s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

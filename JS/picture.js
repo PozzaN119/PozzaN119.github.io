@@ -13,6 +13,6 @@ function getPicture() {
 
   request.onload = function() {
     const jsonpicture = request.response;
-    document.getElementById("imagedetest").src = jsonpicture['data']['0']['media_url'];
+    document.getElementById("feedinsta").src = jsonpicture['data']['0']['media_url'];
   }
 }

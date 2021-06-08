@@ -6,22 +6,11 @@
   top: 0;
   left: 0;
 
-  /* Set bg */
-  background: rgb(57,184,148);
-  background: linear-gradient(45deg, rgba(57,184,148,1) 9%, rgba(96,163,43,1) 90%);
-
   /* Set dim */
   min-width: 100%;
   min-height: 100%;
 
-  /* In case of bg image
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  */
 }
-
 /* Place text in the middle of the image */
 .herotext {
   text-align: center;
